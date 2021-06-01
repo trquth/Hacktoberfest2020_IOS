@@ -6,6 +6,7 @@
 	objectVersion = 50;
 	objects = {
 
+
 /* Begin PBXBuildFile section */
 		6E9D7F77254078CD000D6773 /* AboutImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9D7F76254078CD000D6773 /* AboutImageVC.swift */; };
 		6E9D7F7D2540845F000D6773 /* Chapter2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9D7F7C2540845F000D6773 /* Chapter2.xcassets */; };
@@ -30,6 +31,7 @@
 		6EBDDA04253AA1DF00CE693C /* SourceCodePro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EBDDA01253AA1DF00CE693C /* SourceCodePro-Bold.ttf */; };
 		6EBDDA08253AA9AF00CE693C /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBDDA07253AA9AF00CE693C /* TextView.swift */; };
 		6EBDDA14253B26EF00CE693C /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBDDA13253B26EF00CE693C /* TextField.swift */; };
+		6EC13EEB2540732E00C04762 /* AboutImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC13EEA2540732E00C04762 /* AboutImageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,7 @@
 		6EBDDA01253AA1DF00CE693C /* SourceCodePro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Bold.ttf"; sourceTree = "<group>"; };
 		6EBDDA07253AA9AF00CE693C /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		6EBDDA13253B26EF00CE693C /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		6EC13EEA2540732E00C04762 /* AboutImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutImageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +239,14 @@
 				6EBDDA00253AA1DF00CE693C /* SourceCodePro-Regular.ttf */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		6EC13EE92540731800C04762 /* Chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+				6EC13EEA2540732E00C04762 /* AboutImageVC.swift */,
+			);
+			path = Chapter2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
