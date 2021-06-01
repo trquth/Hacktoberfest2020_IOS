@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="73" id="nBu-uV-bQc" customClass="TextFieldWithTableCell" customModule="Hacktoberfest2020" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="502" height="73"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nBu-uV-bQc" id="s97-Mu-r7Q">
+                <rect key="frame" x="0.0" y="0.0" width="502" height="73"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="TextField In Row" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d3I-GH-03U">
+                        <rect key="frame" x="10" y="14" width="482" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="50A-H9-0br"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="d3I-GH-03U" firstAttribute="centerY" secondItem="s97-Mu-r7Q" secondAttribute="centerY" id="4Tg-dA-4cu"/>
+                    <constraint firstAttribute="trailing" secondItem="d3I-GH-03U" secondAttribute="trailing" constant="10" id="DeU-zy-gmJ"/>
+                    <constraint firstItem="d3I-GH-03U" firstAttribute="leading" secondItem="s97-Mu-r7Q" secondAttribute="leading" constant="10" id="oh5-9x-Ncv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="tf" destination="d3I-GH-03U" id="mE7-bc-SMO"/>
+            </connections>
+            <point key="canvasLocation" x="-930.43478260869574" y="-391.40625"/>
+        </tableViewCell>
+    </objects>
+</document>

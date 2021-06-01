@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SizingLabelVC" customModule="Hacktoberfest2020" customModuleProvider="target">
+            <connections>
+                <outlet property="lab1" destination="hWg-bd-Rqp" id="Lhf-Ra-A86"/>
+                <outlet property="lab2" destination="e9b-SF-Om7" id="PSo-xv-aFI"/>
+                <outlet property="localLabel" destination="9BB-YL-sT2" id="ORy-wQ-vHM"/>
+                <outlet property="theLabel" destination="QXh-kM-YqF" id="09x-go-YYF"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Q19-W9-h6J"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="12" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="QXh-kM-YqF">
+                    <rect key="frame" x="28" y="142" width="334" height="121"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.98003033937514383" blue="0.63819773117397638" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <attributedString key="attributedText">
+                        <fragment content="This is ">
+                            <attributes>
+                                <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <font key="NSFont" size="17" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="some">
+                            <attributes>
+                                <color key="NSColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" size="17" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" text that is too small for its label">
+                            <attributes>
+                                <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <font key="NSFont" size="17" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label whose height is always right for its contents" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWg-bd-Rqp">
+                    <rect key="frame" x="75.666666666666686" y="401.66666666666669" width="239" height="40.666666666666686"/>
+                    <color key="backgroundColor" red="1" green="0.98003033939999995" blue="0.63819773120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="239" id="ace-Qh-dtO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label whose height is always right for its contents, and just to make sure, I'm giving this one a bit more text so it wraps" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9b-SF-Om7">
+                    <rect key="frame" x="20" y="492.33333333333326" width="350" height="61"/>
+                    <color key="backgroundColor" red="1" green="0.98003033939999995" blue="0.63819773120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Localizeable" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9BB-YL-sT2">
+                    <rect key="frame" x="150" y="330.66666666666669" width="90" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="e9b-SF-Om7" secondAttribute="trailing" constant="20" id="9ZR-3j-MBX"/>
+                <constraint firstItem="hWg-bd-Rqp" firstAttribute="top" secondItem="9BB-YL-sT2" secondAttribute="bottom" constant="50" id="DIO-jt-qNZ"/>
+                <constraint firstItem="9BB-YL-sT2" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="150" id="HEE-1r-Kdi"/>
+                <constraint firstItem="e9b-SF-Om7" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="Lbo-YE-rT4"/>
+                <constraint firstItem="hWg-bd-Rqp" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Umq-ec-k5x"/>
+                <constraint firstItem="e9b-SF-Om7" firstAttribute="top" secondItem="hWg-bd-Rqp" secondAttribute="bottom" constant="50" id="lHe-C8-FJn"/>
+                <constraint firstItem="hWg-bd-Rqp" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="qdi-zx-Cvb"/>
+                <constraint firstItem="9BB-YL-sT2" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="u0Z-eu-6wz"/>
+            </constraints>
+            <point key="canvasLocation" x="49.230769230769226" y="107.34597156398104"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

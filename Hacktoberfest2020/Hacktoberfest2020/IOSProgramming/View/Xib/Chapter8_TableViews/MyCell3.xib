@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="0pb-bT-fjL" customClass="MyCell3" customModule="Hacktoberfest2020" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0pb-bT-fjL" id="6NE-jE-GsT">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ged-az-jhi">
+                        <rect key="frame" x="12" y="10" width="390" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Ged-az-jhi" secondAttribute="trailing" constant="12" id="7s6-hn-dRp"/>
+                    <constraint firstItem="Ged-az-jhi" firstAttribute="top" secondItem="6NE-jE-GsT" secondAttribute="top" constant="10" id="VYc-L0-r0K"/>
+                    <constraint firstItem="Ged-az-jhi" firstAttribute="leading" secondItem="6NE-jE-GsT" secondAttribute="leading" constant="12" id="b36-r8-eYo"/>
+                    <constraint firstAttribute="bottom" secondItem="Ged-az-jhi" secondAttribute="bottom" constant="10" id="k87-1a-b6C"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lab" destination="Ged-az-jhi" id="vgM-gf-RNw"/>
+            </connections>
+            <point key="canvasLocation" x="-61" y="-50"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -7,21 +7,50 @@
 
 import UIKit
 
+@available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
-
+    
     var window: UIWindow?
-
-
+    
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        //***************** Old code *****************************************
+//        guard let windowScene = (scene as? UIWindowScene) else { return }
+//        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+//        window?.windowScene = windowScene
+//        window?.backgroundColor = .white
+//        //window?.overrideUserInterfaceStyle = .light
+//        let lootLoggerVC = LootLoggerVC()
+//        lootLoggerVC.itemStore = ItemStore()
+//        window?.rootViewController = NetworkingTabBar()
+//        window?.makeKeyAndVisible()
+        //***************** New code *****************************************
+        if let windowScene = scene as? UIWindowScene {
+            self.window = UIWindow(windowScene: windowScene)
+            //Storyboard
+            let sb = UIStoryboard(name: "CollectionViewSection", bundle: nil)
+            let vc = sb.instantiateViewController(identifier: "FlowLayoutCollection")
+            self.window?.rootViewController = vc
+            //self.window?.rootViewController =  CellBackgroundLayeringCollectionVC()
+            //self.window?.rootViewController = UINavigationController(rootViewController: EditInsertAndRearrangeTableVC())
+            self.window?.makeKeyAndVisible()
+        }
         
-        guard let windowScene = (scene as? UIWindowScene) else { return }
-        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
-        window?.windowScene = windowScene
-        window?.backgroundColor = .white
-        window?.overrideUserInterfaceStyle = .light
+        //*************************TABBAR CONFIG**********************************
+        self.window?.tintColor = .black
+        UITabBar.appearance().unselectedItemTintColor = .black
         
-        window?.rootViewController = AboutImageVC()
-        window?.makeKeyAndVisible()
+        UITabBarItem.appearance().setTitleTextAttributes([.font: UIFont(name: "Avenir-Light", size: 14)!,.foregroundColor: UIColor.lightGray], for: .normal)
+        UITabBarItem.appearance().setTitleTextAttributes([.font: UIFont(name: "Avenir-Light", size: 14)!,.foregroundColor: UIColor.orange], for: .selected)
+        //************************NAVBAR CONFIG**********************************
+        
+        do{
+            print("******************🍎🍎 NAVIGATION BAR CONFIGURATION FOR ALL SCREENS 🍎🍎 *************************")
+            let navBarConfig = UINavigationBarAppearance()
+            navBarConfig.configureWithOpaqueBackground()
+            navBarConfig.backgroundColor = .brown //No effect.
+            UINavigationBar.appearance().scrollEdgeAppearance = navBarConfig
+            UINavigationBar.appearance().standardAppearance = navBarConfig
+        }
         
         
     }

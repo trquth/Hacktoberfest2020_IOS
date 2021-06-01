@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BarsVC" customModule="Hacktoberfest2020" customModuleProvider="target">
+            <connections>
+                <outlet property="navBar" destination="p8K-hA-Rjw" id="QSr-hQ-JNH"/>
+                <outlet property="toolBar" destination="37o-Vp-Fml" id="H8A-Cs-KHA"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p8K-hA-Rjw">
+                    <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <items>
+                        <navigationItem title="Title" id="2k0-HZ-GEv"/>
+                    </items>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="FyH-99-cqp"/>
+                    </connections>
+                </navigationBar>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="37o-Vp-Fml">
+                    <rect key="frame" x="0.0" y="847" width="414" height="49"/>
+                    <items>
+                        <barButtonItem title="Item" id="5iL-IG-FUI"/>
+                    </items>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="PRr-4P-bf7"/>
+                    </connections>
+                </toolbar>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="37o-Vp-Fml" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="2n6-8c-pP9"/>
+                <constraint firstItem="p8K-hA-Rjw" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Q13-r8-gfI"/>
+                <constraint firstItem="37o-Vp-Fml" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Y8w-l8-BTm"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="37o-Vp-Fml" secondAttribute="bottom" constant="-34" id="ccf-7P-cI8"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="p8K-hA-Rjw" secondAttribute="trailing" id="d7r-fj-XfW"/>
+                <constraint firstItem="p8K-hA-Rjw" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="pUh-gF-xeK"/>
+            </constraints>
+            <point key="canvasLocation" x="-219" y="100"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

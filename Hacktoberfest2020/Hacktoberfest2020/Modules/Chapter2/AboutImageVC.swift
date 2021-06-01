@@ -24,7 +24,35 @@ class AboutImageVC: UIViewController {
         
         imageView.layer.borderWidth = 1
         imageView.layer.borderColor = UIColor.orange.cgColor
+        
+        print(imageView.clipsToBounds)
+        print(imageView.contentMode.rawValue)
+        
         return imageView
+    }()
+    
+    let button  : UIButton = {
+        let button = UIButton(type: .system)
+        let image = UIImage(named: "flower")
+        image?.withRenderingMode(.alwaysOriginal)
+        //image?.withTintColor(.red)
+        //image?.withTintColor(.orange, renderingMode: .alwaysTemplate)
+       // print(image?.renderingMode.rawValue)
+        //mage?.withTintColor(.orange)
+        //button.tintColor = .orange
+        
+        //button.setBackgroundImage(image, for: .normal)
+        button.setImage(image?.withAlignmentRectInsets(UIEdgeInsets(top: 50, left: 50, bottom: 50, right: 50)), for: .normal)
+        
+        
+        button.layer.borderWidth = 1
+        button.layer.borderColor = UIColor.orange.cgColor
+        
+        button.setTitle("FLOWER", for: .normal)
+        //button.sizeToFit()
+
+        
+        return button
     }()
 
     override func viewDidLoad() {
@@ -47,6 +75,14 @@ class AboutImageVC: UIViewController {
                                      milk.topAnchor.constraint(equalTo: self.bearMan.bottomAnchor, constant: 70),
                                      milk.widthAnchor.constraint(equalToConstant: 80),
                                      milk.heightAnchor.constraint(equalToConstant: 80)])
+        
+        view.addSubview(button)
+        button.translatesAutoresizingMaskIntoConstraints = false
+
+        NSLayoutConstraint.activate([button.centerXAnchor.constraint(equalTo: self.milk.centerXAnchor),
+                                     button.topAnchor.constraint(equalTo: self.milk.bottomAnchor, constant: 70),
+                                     button.widthAnchor.constraint(equalToConstant: 180),
+                                     button.heightAnchor.constraint(equalToConstant: 80)])
         
     }
 }

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="Cell" customModule="Hacktoberfest2020" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="509" height="138"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="509" height="138"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T1s-eS-9G7">
+                        <rect key="frame" x="2" y="2" width="505" height="134"/>
+                        <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="1" blue="0.1426398754" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <color key="shadowColor" red="1" green="0.50196081400000003" blue="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                        <size key="shadowOffset" width="2" height="2"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="T1s-eS-9G7" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="2" id="0rE-6r-DpA"/>
+                <constraint firstAttribute="bottom" secondItem="T1s-eS-9G7" secondAttribute="bottom" constant="2" id="7gh-xc-WJI"/>
+                <constraint firstItem="T1s-eS-9G7" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="2" id="VrM-9J-5ly"/>
+                <constraint firstAttribute="trailing" secondItem="T1s-eS-9G7" secondAttribute="trailing" constant="2" id="zcq-wc-gcl"/>
+            </constraints>
+            <size key="customSize" width="509" height="138"/>
+            <connections>
+                <outlet property="lab" destination="T1s-eS-9G7" id="rYM-eK-Hr8"/>
+            </connections>
+            <point key="canvasLocation" x="-6.5217391304347831" y="97.767857142857139"/>
+        </collectionViewCell>
+    </objects>
+</document>
