@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>788768711966-hvug3elri3hggiontqoo991p8kit0lbo.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.788768711966-hvug3elri3hggiontqoo991p8kit0lbo</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBkQItfum1J8VWHRe5OYIgdGbti9CGKRaU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>788768711966</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>trquthdev.Hacktoberfest2020</string>
+	<key>PROJECT_ID</key>
+	<string>flashchatexercise-952a1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>flashchatexercise-952a1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:788768711966:ios:c4dc15a44ecb7900e9950f</string>
+</dict>
+</plist>
