@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6E9F4A0A2530A68A0070DA6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4A092530A68A0070DA6C /* AppDelegate.swift */; };
 		6E9F4A0C2530A68A0070DA6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4A0B2530A68A0070DA6C /* SceneDelegate.swift */; };
-		6E9F4A0E2530A68A0070DA6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4A0D2530A68A0070DA6C /* ViewController.swift */; };
+		6E9F4A0E2530A68A0070DA6C /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4A0D2530A68A0070DA6C /* MapVC.swift */; };
 		6E9F4A112530A68A0070DA6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9F4A0F2530A68A0070DA6C /* Main.storyboard */; };
 		6E9F4A132530A68A0070DA6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9F4A122530A68A0070DA6C /* Assets.xcassets */; };
 		6E9F4A162530A68A0070DA6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9F4A142530A68A0070DA6C /* LaunchScreen.storyboard */; };
+		6EB4069F2682BB6E00BAC575 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB4069E2682BB6E00BAC575 /* DroppablePin.swift */; };
+		6EE03BDC2684028900C7079B /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE03BDB2684028900C7079B /* PhotoCell.swift */; };
+		6EE03BDE268474E000C7079B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE03BDD268474E000C7079B /* Constants.swift */; };
+		6EEA84E226862A65003D3ADB /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEA84E126862A65003D3ADB /* PopVC.swift */; };
+		B5CF8FEC8E940DCC5968F67E /* Pods_Hacktoberfest2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E571FE791FB0A7B90D48878B /* Pods_Hacktoberfest2020.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A5BEA5699152E2B7B5DD956 /* Pods-Hacktoberfest2020.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hacktoberfest2020.debug.xcconfig"; path = "Target Support Files/Pods-Hacktoberfest2020/Pods-Hacktoberfest2020.debug.xcconfig"; sourceTree = "<group>"; };
+		6D9FCFE259FB17CB9ACB1A25 /* Pods-Hacktoberfest2020.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hacktoberfest2020.release.xcconfig"; path = "Target Support Files/Pods-Hacktoberfest2020/Pods-Hacktoberfest2020.release.xcconfig"; sourceTree = "<group>"; };
 		6E9F4A062530A68A0070DA6C /* Hacktoberfest2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hacktoberfest2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9F4A092530A68A0070DA6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E9F4A0B2530A68A0070DA6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6E9F4A0D2530A68A0070DA6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E9F4A0D2530A68A0070DA6C /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		6E9F4A102530A68A0070DA6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E9F4A122530A68A0070DA6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E9F4A152530A68A0070DA6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E9F4A172530A68A0070DA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB4069E2682BB6E00BAC575 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
+		6EE03BDB2684028900C7079B /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		6EE03BDD268474E000C7079B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6EEA84E126862A65003D3ADB /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
+		E571FE791FB0A7B90D48878B /* Pods_Hacktoberfest2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hacktoberfest2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5CF8FEC8E940DCC5968F67E /* Pods_Hacktoberfest2020.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DD4ACF2643E6029B6118352 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A5BEA5699152E2B7B5DD956 /* Pods-Hacktoberfest2020.debug.xcconfig */,
+				6D9FCFE259FB17CB9ACB1A25 /* Pods-Hacktoberfest2020.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6E9F49FD2530A6890070DA6C = {
 			isa = PBXGroup;
 			children = (
 				6E9F4A082530A68A0070DA6C /* Hacktoberfest2020 */,
 				6E9F4A072530A68A0070DA6C /* Products */,
+				3DD4ACF2643E6029B6118352 /* Pods */,
+				8D1DCB77D49C9782C631A0F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +80,59 @@
 		6E9F4A082530A68A0070DA6C /* Hacktoberfest2020 */ = {
 			isa = PBXGroup;
 			children = (
+				6EB4069D2682227600BAC575 /* Utilities */,
+				6EB4069C2682223500BAC575 /* Extensions */,
+				6EB4069B2682222B00BAC575 /* Controller */,
+				6EB4069A2682222100BAC575 /* View */,
 				6E9F4A092530A68A0070DA6C /* AppDelegate.swift */,
 				6E9F4A0B2530A68A0070DA6C /* SceneDelegate.swift */,
-				6E9F4A0D2530A68A0070DA6C /* ViewController.swift */,
 				6E9F4A0F2530A68A0070DA6C /* Main.storyboard */,
 				6E9F4A122530A68A0070DA6C /* Assets.xcassets */,
 				6E9F4A142530A68A0070DA6C /* LaunchScreen.storyboard */,
 				6E9F4A172530A68A0070DA6C /* Info.plist */,
 			);
 			path = Hacktoberfest2020;
+			sourceTree = "<group>";
+		};
+		6EB4069A2682222100BAC575 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6EB4069E2682BB6E00BAC575 /* DroppablePin.swift */,
+				6EE03BDB2684028900C7079B /* PhotoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6EB4069B2682222B00BAC575 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E9F4A0D2530A68A0070DA6C /* MapVC.swift */,
+				6EEA84E126862A65003D3ADB /* PopVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6EB4069C2682223500BAC575 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6EB4069D2682227600BAC575 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6EE03BDD268474E000C7079B /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8D1DCB77D49C9782C631A0F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E571FE791FB0A7B90D48878B /* Pods_Hacktoberfest2020.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E9F4A1A2530A68A0070DA6C /* Build configuration list for PBXNativeTarget "Hacktoberfest2020" */;
 			buildPhases = (
+				567F5D1A652A5307A5ABE8EA /* [CP] Check Pods Manifest.lock */,
 				6E9F4A022530A68A0070DA6C /* Sources */,
 				6E9F4A032530A68A0070DA6C /* Frameworks */,
 				6E9F4A042530A68A0070DA6C /* Resources */,
+				9E9BC9242C2370BE5C2BC656 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +202,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		567F5D1A652A5307A5ABE8EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hacktoberfest2020-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E9BC9242C2370BE5C2BC656 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hacktoberfest2020/Pods-Hacktoberfest2020-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hacktoberfest2020/Pods-Hacktoberfest2020-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hacktoberfest2020/Pods-Hacktoberfest2020-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E9F4A022530A68A0070DA6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E9F4A0E2530A68A0070DA6C /* ViewController.swift in Sources */,
+				6E9F4A0E2530A68A0070DA6C /* MapVC.swift in Sources */,
+				6EE03BDC2684028900C7079B /* PhotoCell.swift in Sources */,
+				6EEA84E226862A65003D3ADB /* PopVC.swift in Sources */,
+				6EB4069F2682BB6E00BAC575 /* DroppablePin.swift in Sources */,
 				6E9F4A0A2530A68A0070DA6C /* AppDelegate.swift in Sources */,
 				6E9F4A0C2530A68A0070DA6C /* SceneDelegate.swift in Sources */,
+				6EE03BDE268474E000C7079B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +399,7 @@
 		};
 		6E9F4A1B2530A68A0070DA6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5BEA5699152E2B7B5DD956 /* Pods-Hacktoberfest2020.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +419,7 @@
 		};
 		6E9F4A1C2530A68A0070DA6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9FCFE259FB17CB9ACB1A25 /* Pods-Hacktoberfest2020.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
