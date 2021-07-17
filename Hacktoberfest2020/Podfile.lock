@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (5.4.3)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
+  - SwiftLoader (0.2.5)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - AlamofireImage (~> 4.1)
+  - SwiftLoader (from `https://github.com/ahmednour25689/SwiftLoader.git`, branch `master`)
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  SwiftLoader:
+    :branch: master
+    :git: https://github.com/ahmednour25689/SwiftLoader.git
+
+CHECKOUT OPTIONS:
+  SwiftLoader:
+    :commit: dd7c35cf43586ec07449eff1db632a5d27d34243
+    :git: https://github.com/ahmednour25689/SwiftLoader.git
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  SwiftLoader: 12d7a6f661f5e9a2c9a72003e7dd6162f4ff0cc4
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: d150ca8664da0f26b4ec295ef1f2dea0b6912ac1
+
+COCOAPODS: 1.10.1

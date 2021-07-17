@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0494826EE8CFF07E86C48FBD /* libPods-Hacktoberfest2020.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB01B84CE1E40B801EC3D0 /* libPods-Hacktoberfest2020.a */; };
 		6E9F4A0A2530A68A0070DA6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4A092530A68A0070DA6C /* AppDelegate.swift */; };
 		6E9F4A0C2530A68A0070DA6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4A0B2530A68A0070DA6C /* SceneDelegate.swift */; };
 		6E9F4A0E2530A68A0070DA6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4A0D2530A68A0070DA6C /* ViewController.swift */; };
 		6E9F4A112530A68A0070DA6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9F4A0F2530A68A0070DA6C /* Main.storyboard */; };
 		6E9F4A132530A68A0070DA6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9F4A122530A68A0070DA6C /* Assets.xcassets */; };
 		6E9F4A162530A68A0070DA6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9F4A142530A68A0070DA6C /* LaunchScreen.storyboard */; };
+		6EE9D9A3269FA2DC00228381 /* ListUsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9D9A2269FA2DC00228381 /* ListUsersVC.swift */; };
+		6EE9D9A6269FA62500228381 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9D9A5269FA62500228381 /* UserDataService.swift */; };
+		6EE9D9A9269FA6DF00228381 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9D9A8269FA6DF00228381 /* Constants.swift */; };
+		6EE9D9AB26A0420400228381 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9D9AA26A0420400228381 /* User.swift */; };
+		6EE9D9AD26A07FEC00228381 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9D9AC26A07FEC00228381 /* UserCell.swift */; };
+		6EE9D9B326A09C2A00228381 /* ImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9D9B226A09C2A00228381 /* ImageViewExt.swift */; };
+		6EE9D9B526A1EE1800228381 /* UtilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9D9B426A1EE1800228381 /* UtilVC.swift */; };
+		6EE9D9B726A1F0B600228381 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9D9B626A1F0B600228381 /* UIColorExt.swift */; };
+		6EE9D9B926A1FD6A00228381 /* UserDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9D9B826A1FD6A00228381 /* UserDetailVC.swift */; };
+		6EE9D9BB26A2185500228381 /* TextFieldInCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9D9BA26A2185500228381 /* TextFieldInCell.swift */; };
+		6EE9D9BD26A2189400228381 /* AddUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9D9BC26A2189400228381 /* AddUserVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05981271A9599355EA55576C /* Pods-Hacktoberfest2020.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hacktoberfest2020.release.xcconfig"; path = "Target Support Files/Pods-Hacktoberfest2020/Pods-Hacktoberfest2020.release.xcconfig"; sourceTree = "<group>"; };
+		51AB01B84CE1E40B801EC3D0 /* libPods-Hacktoberfest2020.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hacktoberfest2020.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9F4A062530A68A0070DA6C /* Hacktoberfest2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hacktoberfest2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9F4A092530A68A0070DA6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E9F4A0B2530A68A0070DA6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,18 @@
 		6E9F4A122530A68A0070DA6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E9F4A152530A68A0070DA6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E9F4A172530A68A0070DA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE9D9A2269FA2DC00228381 /* ListUsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersVC.swift; sourceTree = "<group>"; };
+		6EE9D9A5269FA62500228381 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		6EE9D9A8269FA6DF00228381 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6EE9D9AA26A0420400228381 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6EE9D9AC26A07FEC00228381 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		6EE9D9B226A09C2A00228381 /* ImageViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExt.swift; sourceTree = "<group>"; };
+		6EE9D9B426A1EE1800228381 /* UtilVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilVC.swift; sourceTree = "<group>"; };
+		6EE9D9B626A1F0B600228381 /* UIColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		6EE9D9B826A1FD6A00228381 /* UserDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailVC.swift; sourceTree = "<group>"; };
+		6EE9D9BA26A2185500228381 /* TextFieldInCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldInCell.swift; sourceTree = "<group>"; };
+		6EE9D9BC26A2189400228381 /* AddUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserVC.swift; sourceTree = "<group>"; };
+		92B3EE578CC4D7D7FC255DDA /* Pods-Hacktoberfest2020.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hacktoberfest2020.debug.xcconfig"; path = "Target Support Files/Pods-Hacktoberfest2020/Pods-Hacktoberfest2020.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0494826EE8CFF07E86C48FBD /* libPods-Hacktoberfest2020.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +69,8 @@
 			children = (
 				6E9F4A082530A68A0070DA6C /* Hacktoberfest2020 */,
 				6E9F4A072530A68A0070DA6C /* Products */,
+				849BA5F862BB904E4E805A49 /* Pods */,
+				7678918E3D2BDB71DE097A80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +85,91 @@
 		6E9F4A082530A68A0070DA6C /* Hacktoberfest2020 */ = {
 			isa = PBXGroup;
 			children = (
+				6EE9D9B126A09BFE00228381 /* Extensions */,
+				6EE9D9A7269FA65500228381 /* Utilities */,
+				6EE9D9A4269FA57800228381 /* Services */,
+				6EB352FC269F50250069A8A1 /* Model */,
+				6EB352FB269F501F0069A8A1 /* Controller */,
+				6EB352FA269F501A0069A8A1 /* View */,
 				6E9F4A092530A68A0070DA6C /* AppDelegate.swift */,
 				6E9F4A0B2530A68A0070DA6C /* SceneDelegate.swift */,
-				6E9F4A0D2530A68A0070DA6C /* ViewController.swift */,
 				6E9F4A0F2530A68A0070DA6C /* Main.storyboard */,
 				6E9F4A122530A68A0070DA6C /* Assets.xcassets */,
 				6E9F4A142530A68A0070DA6C /* LaunchScreen.storyboard */,
 				6E9F4A172530A68A0070DA6C /* Info.plist */,
 			);
 			path = Hacktoberfest2020;
+			sourceTree = "<group>";
+		};
+		6EB352FA269F501A0069A8A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6EE9D9AC26A07FEC00228381 /* UserCell.swift */,
+				6EE9D9BA26A2185500228381 /* TextFieldInCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6EB352FB269F501F0069A8A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E9F4A0D2530A68A0070DA6C /* ViewController.swift */,
+				6EE9D9A2269FA2DC00228381 /* ListUsersVC.swift */,
+				6EE9D9B826A1FD6A00228381 /* UserDetailVC.swift */,
+				6EE9D9BC26A2189400228381 /* AddUserVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6EB352FC269F50250069A8A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6EE9D9AA26A0420400228381 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6EE9D9A4269FA57800228381 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6EE9D9A5269FA62500228381 /* UserDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6EE9D9A7269FA65500228381 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6EE9D9A8269FA6DF00228381 /* Constants.swift */,
+				6EE9D9B426A1EE1800228381 /* UtilVC.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6EE9D9B126A09BFE00228381 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6EE9D9B226A09C2A00228381 /* ImageViewExt.swift */,
+				6EE9D9B626A1F0B600228381 /* UIColorExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7678918E3D2BDB71DE097A80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51AB01B84CE1E40B801EC3D0 /* libPods-Hacktoberfest2020.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		849BA5F862BB904E4E805A49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92B3EE578CC4D7D7FC255DDA /* Pods-Hacktoberfest2020.debug.xcconfig */,
+				05981271A9599355EA55576C /* Pods-Hacktoberfest2020.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E9F4A1A2530A68A0070DA6C /* Build configuration list for PBXNativeTarget "Hacktoberfest2020" */;
 			buildPhases = (
+				E7545AD693387B52EA335D34 /* [CP] Check Pods Manifest.lock */,
 				6E9F4A022530A68A0070DA6C /* Sources */,
 				6E9F4A032530A68A0070DA6C /* Frameworks */,
 				6E9F4A042530A68A0070DA6C /* Resources */,
@@ -132,14 +238,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E7545AD693387B52EA335D34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hacktoberfest2020-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E9F4A022530A68A0070DA6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE9D9AD26A07FEC00228381 /* UserCell.swift in Sources */,
 				6E9F4A0E2530A68A0070DA6C /* ViewController.swift in Sources */,
+				6EE9D9A6269FA62500228381 /* UserDataService.swift in Sources */,
 				6E9F4A0A2530A68A0070DA6C /* AppDelegate.swift in Sources */,
+				6EE9D9B926A1FD6A00228381 /* UserDetailVC.swift in Sources */,
+				6EE9D9BD26A2189400228381 /* AddUserVC.swift in Sources */,
+				6EE9D9BB26A2185500228381 /* TextFieldInCell.swift in Sources */,
 				6E9F4A0C2530A68A0070DA6C /* SceneDelegate.swift in Sources */,
+				6EE9D9B526A1EE1800228381 /* UtilVC.swift in Sources */,
+				6EE9D9A3269FA2DC00228381 /* ListUsersVC.swift in Sources */,
+				6EE9D9A9269FA6DF00228381 /* Constants.swift in Sources */,
+				6EE9D9B726A1F0B600228381 /* UIColorExt.swift in Sources */,
+				6EE9D9B326A09C2A00228381 /* ImageViewExt.swift in Sources */,
+				6EE9D9AB26A0420400228381 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +425,7 @@
 		};
 		6E9F4A1B2530A68A0070DA6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92B3EE578CC4D7D7FC255DDA /* Pods-Hacktoberfest2020.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +445,7 @@
 		};
 		6E9F4A1C2530A68A0070DA6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05981271A9599355EA55576C /* Pods-Hacktoberfest2020.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
